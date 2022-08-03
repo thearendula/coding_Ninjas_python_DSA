@@ -1,0 +1,1 @@
+def Rotate(arr, d):    if len(arr) == 0:        return    d = d % len(arr)    for i in range(d, len(arr)):        print(arr[i], end=" ")    for i in range(0, d):        print(arr[i], end=" ")arr = [1, 3, 6, 11, 12, 17]Rotate(arr, 6)

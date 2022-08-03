@@ -1,0 +1,1 @@
+def pairSum(arr, x):    arr.sort()    for i in range(0, len(arr)-1):        for j in range(1, len(arr)):            if arr[i] + arr[j] == x:                if arr[i] > arr[j]:                    print(arr[j], arr[i])                else:                    print(arr[i], arr[j])arr = [1, 3, 6, 2, 5, 4, 3, 2, 4]print(pairSum(arr, 7))

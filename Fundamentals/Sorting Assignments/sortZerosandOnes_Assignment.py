@@ -1,0 +1,1 @@
+def sortZerosandOnes(n):    nextZero = 0    for i in range(n):        if arr[i] == 0:            temp = arr[nextZero]            arr[nextZero] = arr[i]            arr[i] = temp            nextZero += 1arr = [int(x) for x in input().split()]sortZerosandOnes(arr)

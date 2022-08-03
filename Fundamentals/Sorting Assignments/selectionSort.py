@@ -1,0 +1,1 @@
+def selectionSort(arr):    length = len(arr)    for i in range(length - 1):        mainIndex = i        for j in range(i + 1, length):            if arr[j] < arr[mainIndex]:                mainIndex = j        arr[i], arr[mainIndex] = arr[mainIndex], arr[i]arr = [int(x) for x in input().split()]selectionSort(arr)print(arr)

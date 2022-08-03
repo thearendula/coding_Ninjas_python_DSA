@@ -1,0 +1,1 @@
+def arrayEqulilibrium(arr, n):    pass

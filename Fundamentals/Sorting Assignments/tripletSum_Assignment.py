@@ -1,0 +1,1 @@
+def tripletSum(arr, n, x):    numTriplets = 0    for i in range(n):        for j in range(i + 1, n):            for k in range(j + 1, n):                if arr[i] + arr[j] + arr[k] == x:                    numTriplets += 1    return numTripletsarr = [int(x) for x in input().split()]res = tripletSum(arr, 5, 12)print(res)
